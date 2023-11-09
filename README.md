@@ -12,3 +12,7 @@ Movies.postman_collection.json
 npm i
 npm test
 npm run test:e2e
+
+# admin user
+username: admin@gmail.com
+password: Abc1323$
