@@ -33,12 +33,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/movies",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/movies",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -73,17 +71,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/movies/6544512d925b946f2fd3e2cc",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/movies/654d83bde7790921acef0a83",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
 								"movies",
-								"6544512d925b946f2fd3e2cc"
+								"654d83bde7790921acef0a83"
 							]
 						}
 					},
@@ -105,17 +101,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/movies/6544512d925b946f2fd3e2cc",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/movies/654d83bde7790921acef0a83",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
 								"movies",
-								"6544512d925b946f2fd3e2cc"
+								"654d83bde7790921acef0a83"
 							]
 						}
 					},
@@ -137,12 +131,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/movies?page=1&limit=5",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/movies?page=1&limit=5",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -178,17 +170,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/movies/6544512d925b946f2fd3e2cc",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/movies/654d83bde7790921acef0a83",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
 								"movies",
-								"6544512d925b946f2fd3e2cc"
+								"654d83bde7790921acef0a83"
 							]
 						}
 					},
@@ -214,12 +204,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/auth/signup",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/auth/signup",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -237,7 +225,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"username\": \"user@gmail.com\",\n    \"password\": \"Abc1323$\"\n}",
+							"raw": "{\n    \"username\": \"admin@gmail.com\",\n    \"password\": \"Abc1323$\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -245,12 +233,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/auth/login",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/auth/login",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -277,12 +263,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/auth/logout",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/auth/logout",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -309,12 +293,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/auth/refresh",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/auth/refresh",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -346,12 +328,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/users",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/users",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -377,12 +357,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/users/6541ba717fd6a2d7c719ee79",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/users/6541ba717fd6a2d7c719ee79",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -409,12 +387,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/v1/users/profile",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/users/profile",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -450,12 +426,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/v1/users/654451b6925b946f2fd3e2d9",
-							"protocol": "http",
+							"raw": "{{domain}}/api/v1/users/654451b6925b946f2fd3e2d9",
 							"host": [
-								"localhost"
+								"{{domain}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -467,6 +441,45 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": ""
+		},
+		{
+			"key": "token_refresh",
+			"value": ""
+		},
+		{
+			"key": "domain",
+			"value": "",
+			"disabled": true
+		},
+		{
+			"key": "domain",
+			"value": ""
 		}
 	]
 }

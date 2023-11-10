@@ -48,7 +48,7 @@ export class MoviesController {
     async getAll(@Query() query: QueryMoviesDto) {
         const movies = await this.moviesService.getAll(query);
 
-        return { movies };
+        return movies;
     }
 
     @Delete(':id')

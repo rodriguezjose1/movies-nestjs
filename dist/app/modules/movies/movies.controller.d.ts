@@ -14,9 +14,7 @@ export declare class MoviesController {
     getById(id: string): Promise<{
         movie: import("./dto/GetMovieDTO").GetMovieDto;
     }>;
-    getAll(query: QueryMoviesDto): Promise<{
-        movies: import("./interfaces/IMovie.interface").GetAllMoviesDto;
-    }>;
+    getAll(query: QueryMoviesDto): Promise<import("./interfaces/IMovie.interface").GetAllMoviesDto>;
     deleteById(id: string): Promise<{
         movie: import("./dto/GetMovieDTO").GetMovieDto;
     }>;
