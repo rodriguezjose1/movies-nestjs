@@ -2,9 +2,6 @@
 docker-compose -f docker-compose.yml build
 docker-compose -f docker-compose.yml up
 
-# url swagger
-http://localhost:3000/api-docs#/
-
 # postman collection with examples
 Movies.postman_collection.json
 
@@ -16,3 +13,6 @@ npm run test:e2e
 # admin user
 username: admin@gmail.com
 password: Abc1323$
+
+# service domain
+https://movies-nestjs.vercel.app/

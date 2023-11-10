@@ -44,7 +44,7 @@ let MoviesController = class MoviesController {
     }
     async getAll(query) {
         const movies = await this.moviesService.getAll(query);
-        return { movies };
+        return movies;
     }
     async deleteById(id) {
         const movie = await this.moviesService.deleteById(id);
